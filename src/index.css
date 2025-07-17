@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body{
+    overflow-x: hidden;
+}
+html, body, #root {
+  height: 100%;
+}
+/* In your index.css or global stylesheet */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
